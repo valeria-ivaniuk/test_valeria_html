@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;}
+    body {
+        margin: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        min-height: 100%;
+        min-width: 100%;
+        color: #1a1a1a;
+        background-color: #f1f1f1;
+    }
