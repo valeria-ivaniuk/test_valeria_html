@@ -9,15 +9,116 @@ html {
         min-height: 100%;
         min-width: 100%;
         color: #1a1a1a;
-        background-color: #f1f1f1;
+        background-color: #dddbdb;
     }
     nav {
         width: 100%;
         height: 80px;
-        padding: 20px 22px;
-        background-color: white;
+        padding: 21px 24px;
+        background-color: #f1f1f1;
         box-shadow: 0 2px 1px rgba(0, 78, 128, 0.1), 0 4px 8px rgba(0, 0, 0, 0.13);
     }
+
     nav > * {
-        padding: 0 20px;
+    padding: 0 20px;
     }
+
+    #containerDescription {
+        border: 3px solid #f1f1f1;
+        display: grid;
+        justify-content: start;
+        grid-template-columns: 250px 400px;
+        align-items: center;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        gap: 20px;
+    }
+   /* #containerDescription >  img {
+        background-color: #f1f1f1;
+        margin: -1px;
+        padding: 50px;
+        }
+*/
+
+    #imageContainer {
+    background-color: #f1f1f1;
+    padding: 50px;
+    width: 250px;
+    }
+
+    #imageContainer > img {
+        max-width: 100%;
+    }
+        
+        #containerStudies {
+        border: 3px solid #f1f1f1;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 250px 400px;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        }
+
+        .leftColumn {
+            background-color: #f1f1f1;
+            padding: 20px;
+            margin: -1px;
+        }
+
+        .fechas {
+            font-size: 12px;
+            font-style: italic;
+        }
+
+
+        
+
+        h3.centered {
+            text-align: center;
+            background-color: white;
+            padding: 10px 10px;
+            font-weight: 100;
+            font-size: 18px;
+            margin: 0;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+         }
+
+    #studies {
+        border: 3px solid #f1f1f1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        column-gap: 20px;
+    }
+
+#studies td {
+    border-bottom: 2px solid white;
+    padding: 0 20px;
+}
+.fechas {
+    font-size: 12px;
+    font-style: italic;
+}
+.centerName {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.location {
+    font-size: 12px;
+    margin-left: 10px;
+    font-style: italic;
+}
+.location::before{
+    content: "- ";
+}
